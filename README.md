@@ -3,12 +3,12 @@ Heyzap-AS3-AIR-SDK
 
 Heyzap check-in main timeline AS3 AIR SDK
 
-//First frame of the Main timeline
+//First frame of the Main timeline//
 
 import com.heyzap.extensions.*;
 
 import flash.events.MouseEvent;
-  import flash.text.TextField;
+	import flash.text.TextField;
 	import flash.desktop.NativeApplication;
 	import flash.events.Event;
 	import flash.events.StatusEvent;
@@ -24,8 +24,8 @@ import flash.events.MouseEvent;
 	
 	var h : Heyzap;
 
-//Insert where You want to call heyzap check-in funktion
-//Use heyzap button 
+//Insert where You want to call heyzap check-in funktion//
+//Use heyzap button //
 heyzap.addEventListener(MouseEvent.CLICK,Main);
 		
 	function Main(event:MouseEvent)
